@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">@color/lavender_dark</color>
+    <color name="color_on_primary">@color/grey_light</color>
+    <color name="color_secondary">@color/lavender</color>
+    <color name="color_on_secondary">@color/grey_dark</color>
+
+    <color name="text_primary">@color/grey_light</color>
+    <color name="text_secondary">@color/grey_dark</color>
+
+</resources>

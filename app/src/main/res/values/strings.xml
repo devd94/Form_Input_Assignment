@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EkaCare Form Assignment</string>
+
+    <string name="user_saved_msg">User Saved</string>
+    <string name="name_reqd_error_msg">Name is required</string>
+    <string name="age_reqd_error_msg">Age is required</string>
+    <string name="dob_reqd_error_msg">Date of birth is required</string>
+    <string name="age_dob_mismatch_error_msg">Your age does not match date of birth</string>
+</resources>

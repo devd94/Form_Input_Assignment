@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_guidex1"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="0.03"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_guidex2"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="0.1"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_guidex3"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="0.2"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_guidex4"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="0.22"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_guidex5"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="0.32"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_guidex6"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="0.34"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_guidex7"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="0.44"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_guidex8"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="0.46"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_guidex9"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="0.64"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_guidex10"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="0.66"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_guidex11"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="0.76"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_guidex12"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="0.97"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_guidey1"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="0.04"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_guidey2"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="0dp"
+        app:layout_constraintGuide_percent="0.96"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_screen_heading"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/home_guidey1"
+        app:layout_constraintEnd_toEndOf="@id/home_guidey2"
+        app:layout_constraintTop_toTopOf="@id/home_guidex1"
+        app:layout_constraintBottom_toTopOf="@id/home_guidex2"
+        android:text="Add Your Details"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_name_heading"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/home_guidey1"
+        app:layout_constraintEnd_toEndOf="@id/home_guidey2"
+        app:layout_constraintTop_toBottomOf="@id/home_guidex2"
+        android:text="Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_name_input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/home_guidey1"
+        app:layout_constraintEnd_toEndOf="@id/home_guidey2"
+        app:layout_constraintBottom_toTopOf="@id/home_guidex3"
+        android:background="@drawable/lavender_edittext_bg"
+        android:textSize="16sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:hint="Enter name"
+        android:textColor="@color/text_primary"
+        android:maxLines="1"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_age_heading"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/home_guidey1"
+        app:layout_constraintEnd_toEndOf="@id/home_guidey2"
+        app:layout_constraintTop_toBottomOf="@id/home_guidex4"
+        android:text="Age"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_age_input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/home_guidey1"
+        app:layout_constraintEnd_toEndOf="@id/home_guidey2"
+        app:layout_constraintBottom_toTopOf="@id/home_guidex5"
+        android:background="@drawable/lavender_edittext_bg"
+        android:textSize="16sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:hint="Enter age"
+        android:maxLines="1"
+        android:textColor="@color/text_primary"
+        android:inputType="number"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_dob_heading"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/home_guidey1"
+        app:layout_constraintEnd_toEndOf="@id/home_guidey2"
+        app:layout_constraintTop_toBottomOf="@id/home_guidex6"
+        android:text="Date Of Birth"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_dob_input"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/home_guidey1"
+        app:layout_constraintEnd_toEndOf="@id/home_guidey2"
+        app:layout_constraintBottom_toTopOf="@id/home_guidex7"
+        android:background="@drawable/lavender_edittext_bg"
+        android:textSize="16sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:hint="Enter DOB"
+        android:maxLines="1"
+        android:textColor="@color/text_primary"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_address_heading"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/home_guidey1"
+        app:layout_constraintEnd_toEndOf="@id/home_guidey2"
+        app:layout_constraintTop_toBottomOf="@id/home_guidex8"
+        android:text="Address"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_address_input"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        app:layout_constraintStart_toStartOf="@id/home_guidey1"
+        app:layout_constraintEnd_toEndOf="@id/home_guidey2"
+        app:layout_constraintBottom_toTopOf="@id/home_guidex9"
+        android:background="@drawable/lavender_edittext_bg"
+        android:textSize="16sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:hint="Enter address"
+        android:gravity="top"
+        android:textColor="@color/text_primary"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_save"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/home_guidey1"
+        app:layout_constraintEnd_toEndOf="@id/home_guidey2"
+        app:layout_constraintTop_toBottomOf="@id/home_guidex10"
+        app:layout_constraintBottom_toBottomOf="@id/home_guidex11"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="@color/text_secondary"
+        android:background="@drawable/purple_button_bg"/>
+    
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintStart_toStartOf="@id/home_guidey1"
+        app:layout_constraintEnd_toEndOf="@id/home_guidey2"
+        app:layout_constraintTop_toTopOf="@id/home_guidex1"
+        app:layout_constraintBottom_toBottomOf="@id/home_guidex12"
+        android:theme="@style/ProgressStyle"
+        android:visibility="gone"/>
+    
+</androidx.constraintlayout.widget.ConstraintLayout>
